@@ -10,5 +10,9 @@ class PagesController < ApplicationController
   def about
     @title = "About" #instance variable whose primary purpose is to link actions and views -> automatically available in about.html.erb
   end
+  
+  def help
+    @title = "Help"
+  end
 
 end
